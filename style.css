@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #111;
+  color: white;
+}
+
+/* MENU */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* BANNER */
+.banner {
+  height: 300px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/* BOTÕES */
+button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+/* FILMES */
+.movies {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row img {
+  width: 150px;
+}
+
+.row img:hover {
+  transform: scale(1.1);
+}
